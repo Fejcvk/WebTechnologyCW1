@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 0 70%;
+    position: fixed;
+    top: 0;
+}
+li{
+    float: left;
+    font-family: 'Open Sans'
+}
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 12px 12px 12px 12px;
+}
+li a:hover {
+    color: #ff0f00;
+}
+.active
+{
+    color: #ff0f00;
+}
