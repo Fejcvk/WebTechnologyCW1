@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    font-family: 'Open Sans';
+}
+li{
+    /*float: left;*/
+    font-family: 'Open Sans'
+}
+li a {
+    /*display: block;*/
+    text-decoration: none;
+    /*text-align: center;*/
+    color: black;
+    padding: 12px 12px 12px 12px;
+}
+li a:hover {
+    color: #ff0f00;
+    text-decoration: none;
+}
+.active
+{
+    color: #ff0f00;
+}
+nav{
+    margin-top: 20px;
+}
+h1
+{
+
+}
+.align-self-center{
+    text-align: center;
+    margin-top: 15%;
+}
+.align-self-top{
+    margin-top: 3%;
+}
+input{
+    border: none;
+}

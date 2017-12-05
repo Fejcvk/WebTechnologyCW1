@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/homePageCss.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/contactPageCss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <!--Needed meta data-->
@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<script src = "../JS/homePageJs.js"></script>
+<!--TODO:WALIDACJA MESSAGE FORMSA-->
 <nav class="navbar navbar-light navbar-expand-sm  bg-faded">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -34,6 +34,25 @@
         </ul>
     </div>
 </nav>
+<div class="container">
+    <div class="row">
+        <div class="col align-self-center">
+            <h1>Contact</h1>
+        </div>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="If you would like to contact us type in here your message..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send!</button>
+    </form>
+</div>
+</div>
 <footer>
     <!--Miejsce na disclaimer-->
 </footer>
