@@ -23,24 +23,34 @@ body{
 nav{
     margin-top: 20px;
 }
-.img-responsive{
-    padding-left: 30px;
-}
-.row-top{
+.col-12{
+    text-align: center;
     margin-top: 3%;
 }
-.col-9{
+.col-4{
+    text-align: center;
+    margin-top: 3%;
+}
+.col-8{
+    text-align: left;
+    margin-top: 3%;
+}
+.col-article-text
+{
     font-family: "Raleway", sans-serif;
-    font-weight: 200;
 }
-.resume-col{
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-}
-.resume-row{
-    margin-top:5%;
-}
-.resume-entry{
-    font-size: 25px;
+.article-title
+{
     font-weight: 400;
+    font-size: 40px;
+}
+.article-text{
+    font-weight: 200;
+    font-size: 18px;
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
 }
