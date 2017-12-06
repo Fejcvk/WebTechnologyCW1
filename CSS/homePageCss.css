@@ -71,3 +71,12 @@ li a:hover {
 nav{
     margin-top: 20px;
 }
+.redirect{
+    text-decoration: none;
+    color: black;
+}
+.redirect:hover
+{
+    color: black;
+    text-decoration: none;
+}
