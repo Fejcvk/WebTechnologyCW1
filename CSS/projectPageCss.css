@@ -23,28 +23,15 @@ body{
 nav{
     margin-top: 20px;
 }
-.img-responsive{
-    padding-left: 30px;
+.col-text{
+    font-family: Raleway;
+    font-weight: 100;
 }
-.row-top{
-    margin-top: 3%;
+.container-main-content{
+    margin-top: 5%;
 }
-.col-9{
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
 }
-.resume-col{
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-}
-.resume-row{
-    margin-top:5%;
-}
-.resume-entry{
-    font-size: 25px;
-    font-weight: 400;
-}
-/*.row-img .col-img*/
-/*{*/
-    /*border: dotted;*/
-/*}*/
