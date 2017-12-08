@@ -44,7 +44,9 @@ nav{
     font-size: 25px;
     font-weight: 400;
 }
-/*.row-img .col-img*/
-/*{*/
-    /*border: dotted;*/
-/*}*/
+.disclaimer
+{
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 10px;
+}

@@ -54,12 +54,9 @@ nav{
 .morelink {
     display: block;
 }
-/*.even-row{*/
-    /*border: solid;*/
-    /*margin: 5px 5px 5px 5px;*/
-/*}*/
-/*.odd-row*/
-/*{*/
-    /*border: solid;*/
-    /*margin: 5px 5px 5px 5px;*/
-/*}*/
+.disclaimer
+{
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 10px;
+}
